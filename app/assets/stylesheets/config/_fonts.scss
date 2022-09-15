@@ -1,0 +1,12 @@
+// Import Google fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+// Define fonts for body and headers
+$body-font: "Product Sans", "Roboto", "Helvetica", "sans-serif";
+$headers-font: "Product Sans", "Roboto", "Helvetica", "sans-serif";
+
+
+@font-face {
+  font-family: 'Product Sans';
+  src: local('Product Sans'), local('Product Sans');
+}
