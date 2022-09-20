@@ -1,4 +1,4 @@
-<div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+<div class="navbar navbar-expand-sm navbar-dark navbar-lewagon">
   <div class="container-fluid">
     <%= link_to root_path, class: "navbar-brand" do %>
       <%= image_tag "portfolio_logo.png", class: "navbar-brand" %>
@@ -6,15 +6,18 @@
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto">
-          <div class="social mt-2">
-            <a href="https://github.com/jamesgoforth" target="_blank"><i class="fab fa-github"></i></a>
+          <li class="social mt-2 nav-item">
+            <a href="https://github.com/jamesgoforth" target="_blank"><i class="fab fa-github dropdown-item"></i></a>
+          </li>
+          <li class="social mt-2 nav-item">
             <a href="https://www.linkedin.com/in/james-goforth/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </li>
+          <li class="social mt-2 nav-item">
             <%= link_to "CV", "https://drive.google.com/file/d/1DlfhSitmtgOPfbY26-qXGXb3rByeT4t4/view?usp=sharing", class: "text-decoration-none", target: :_blank %>
-            <a href=""><i class="fa-solid fa-envelope"></i></a>
-           </div>
+          </li>
+          <li class="social mt-2"> <a href=""><i class="fa-solid fa-envelope"></i></a></li>
       </ul>
     </div>
   </div>
